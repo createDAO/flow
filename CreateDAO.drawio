@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.3">
   <diagram name="Page-1" id="pfwY6Ov3mCGx-YDJisD7">
-    <mxGraphModel dx="5797" dy="3231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3134" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,9 +9,6 @@
         </mxCell>
         <mxCell id="vYjYcIrp6retQNpmxKTs-3" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Deploy&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp;DAOFactoryProxyAdmin&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-840" y="60" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vYjYcIrp6retQNpmxKTs-2" value="Factory&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Deployment Sequence&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-700" y="-30" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vYjYcIrp6retQNpmxKTs-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vYjYcIrp6retQNpmxKTs-36" target="vYjYcIrp6retQNpmxKTs-38">
           <mxGeometry relative="1" as="geometry" />
@@ -29,7 +26,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vYjYcIrp6retQNpmxKTs-40" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Initialize DAOFactoryProxy with&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DAOFactoryProxyAdmin Address,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;DAOFactory Implementation Address)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="51.5" width="240" height="77" as="geometry" />
+          <mxGeometry x="-230" y="51.5" width="240" height="77" as="geometry" />
         </mxCell>
         <mxCell id="vYjYcIrp6retQNpmxKTs-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vYjYcIrp6retQNpmxKTs-42" target="vYjYcIrp6retQNpmxKTs-3">
           <mxGeometry relative="1" as="geometry" />
@@ -37,14 +34,20 @@
         <mxCell id="vYjYcIrp6retQNpmxKTs-42" value="START" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1040" y="65" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vYjYcIrp6retQNpmxKTs-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vYjYcIrp6retQNpmxKTs-44" target="vYjYcIrp6retQNpmxKTs-47">
+        <mxCell id="vYjYcIrp6retQNpmxKTs-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vYjYcIrp6retQNpmxKTs-44" target="vYjYcIrp6retQNpmxKTs-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vYjYcIrp6retQNpmxKTs-44" value="DAOFactory Contracts&lt;div&gt;are ready for DAO&lt;/div&gt;&lt;div&gt;creation&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-550" y="190" width="120" height="120" as="geometry" />
+          <mxGeometry x="-850" y="360" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="vYjYcIrp6retQNpmxKTs-47" value="createDAO()&lt;div&gt;with DAO Name, DAO Slug&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-550" y="420" width="120" height="60" as="geometry" />
+        <mxCell id="vYjYcIrp6retQNpmxKTs-47" value="&lt;b&gt;createDAO()&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;function in DAOFactory Contract&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;b&gt;Input data:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;DAO Name,&lt;/div&gt;&lt;div&gt;DAO Slug,&lt;/div&gt;&lt;/div&gt;&lt;div&gt;ERC20 Token name,&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Total Supply,&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="360" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vYjYcIrp6retQNpmxKTs-49" value="Factory&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;Deployment Sequence&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="-10" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vYjYcIrp6retQNpmxKTs-50" value="DAO&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;Deployment Sequence&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="-625" y="260" width="300" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
